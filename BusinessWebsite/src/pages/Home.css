@@ -1,0 +1,169 @@
+.home-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f5f0e1;
+  min-height: 100vh;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* 📌 About Sticky Note (top right) */
+.about-sticky-note {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background: #ffd1dc;
+  border: 2px solid #ffb6c1;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+  text-decoration: none;
+  color: #4b3b2b;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(5deg);
+  transition: transform 0.3s, background 0.3s;
+  z-index: 20;
+}
+
+.about-sticky-note:hover {
+  background: #ffb6c1;
+  transform: rotate(0deg) scale(1.05);
+}
+
+.about-text {
+  text-align: center;
+}
+
+/* 📌 Title sticky note */
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.title-sticky {
+  position: relative;
+  background: #fff89a;
+  padding: 2rem 4rem;
+  border: 2px solid #f0e68c;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+  text-align: center;
+  width: fit-content;
+}
+
+/* 📌 Pin emoji */
+.pin-emoji {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+}
+
+.title-text {
+  font-size: 4rem;
+  color: #4b3b2b;
+  text-shadow: 1px 1px 0px #d3bfa0;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* 📋 School board area */
+.school-board {
+  background: #fdf6e3;
+  border: 8px solid #deb887;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+  padding: 3rem;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  position: relative;
+}
+
+/* 📋 Sticky notes inside board */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Sticky note style */
+.sticky-note {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 1rem;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Push pin on sticky notes */
+.sticky-note::before {
+  content: "📌";
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+}
+
+/* Hover sticky note */
+.sticky-note:hover {
+  background: #fff78a;
+  transform: scale(1.05);
+}
+
+/* Tilt styles */
+.tilt-left {
+  transform: rotate(-3deg);
+}
+
+.tilt-right {
+  transform: rotate(3deg);
+}
+
+/* Sticky note title */
+.note-title {
+  font-size: 1.8rem;
+  color: #4b3b2b;
+  word-break: break-word;
+}
+
+/* Sticky note colors */
+.yellow {
+  background: #fff89a;
+  border: 2px solid #f0e68c;
+}
+
+.pink {
+  background: #ffd1dc;
+  border: 2px solid #ffb6c1;
+}
+
+.blue {
+  background: #add8e6;
+  border: 2px solid #87ceeb;
+}

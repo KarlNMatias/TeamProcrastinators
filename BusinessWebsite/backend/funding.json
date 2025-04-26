@@ -1,0 +1,34 @@
+
+[
+  {
+    "name": "Funding Opportunity",
+    "deadline": "2025-04-30",
+    "source": "Big Bucks Bank",
+    "description": "Giving out free monies"
+  },
+  {
+    "name": "Hawai‘i Small Business Grant",
+    "deadline": "2025-05-15",
+    "source": "Hawai‘i Chamber of Commerce",
+    "description": "Grants for local entrepreneurs expanding operations"
+  },
+  {
+    "name": "Sustainable Tourism Fund",
+    "deadline": "2025-06-01",
+    "source": "Hawai‘i Tourism Authority",
+    "description": "Funding eco-friendly and culturally respectful tourism initiatives"
+  },
+  {
+    "name": "Creative Arts Microgrant",
+    "deadline": "2025-05-10",
+    "source": "Honolulu Museum of Art",
+    "description": "Support for emerging artists in visual and performing arts"
+  },
+  {
+    "name": "Kaka‘ako Startup Seed Round",
+    "deadline": "2025-05-20",
+    "source": "Mana Up Hawai‘i",
+    "description": "Seed funding for innovative local startups in the tech and product space"
+  }
+]
+

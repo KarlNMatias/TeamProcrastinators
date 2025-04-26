@@ -1,0 +1,34 @@
+
+[
+  {
+    "name": "Chaminade",
+    "type": "University",
+    "location": "Honolulu",
+    "contact": "admissions@chaminade.edu"
+  },
+  {
+    "name": "Aloha Stadium",
+    "type": "Stadium",
+    "location": "Honolulu",
+    "contact": "info@alohastadium.hawaii.gov"
+  },
+  {
+    "name": "Waikiki Beachcomber Hotel",
+    "type": "Hotel",
+    "location": "Honolulu",
+    "contact": "reservations@waikikibeachcomber.com"
+  },
+  {
+    "name": "Diamond Head Market & Grill",
+    "type": "Restaurant",
+    "location": "Honolulu",
+    "contact": "info@diamondheadmarket.com"
+  },
+  {
+    "name": "Honolulu Zoo",
+    "type": "Zoo",
+    "location": "Honolulu",
+    "contact": "info@honoluluzoo.org"
+  }
+]
+

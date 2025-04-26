@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Community Picnic",
+    "time": "2025-04-30T20:46",
+    "where": "Ala Moana Beach Park",
+    "why": "having a fun business get together"
+  },
+  {
+    "name": "Sunset Yoga on the Beach",
+    "time": "2025-05-02T18:30",
+    "where": "Waikiki Beach",
+    "why": "promoting wellness and mindfulness"
+  },
+  {
+    "name": "First Friday Art Walk",
+    "time": "2025-05-03T17:00",
+    "where": "Chinatown Arts District",
+    "why": "celebrating local artists and creativity"
+  },
+  {
+    "name": "Lei Day Celebration",
+    "time": "2025-05-01T10:00",
+    "where": "Kapiolani Park",
+    "why": "honoring Hawaiian culture and traditions"
+  },
+  {
+    "name": "Honolulu Night Market",
+    "time": "2025-05-10T17:00",
+    "where": "Salt at Our Kaka‘ako",
+    "why": "bringing together food, fashion, and entertainment"
+  }
+]
+
