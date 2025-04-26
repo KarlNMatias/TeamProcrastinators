@@ -1,2 +1,0 @@
-# TeamProcrastinators
-SoftwareEng Class Project
